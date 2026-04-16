@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Modi's Bakers</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- 🔝 Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">Modi's Bakers</a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link active" href="#">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="order.html">Order</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<main>
+    <!-- Header section -->
+     <section class="hero-small text-center d-flex align-items-center">
+    <div class="container">
+        <h1 class="fw-bold">Our Delicious Menu 🍰</h1>
+    </div>
+    </section>
+    
+    <!-- 🍰 Cakes Section -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Cakes & Pastries</h2>
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="card shadow" data-aos="fade-up" data-delay="200">
+                    <img src="images/chocolate-cake.jpg" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5>Chocolate Cake</h5>
+                        <p>₹500</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow" data-aos="fade-up" data-delay="200">
+                    <img src="images/butterscotch-cake.jpg" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5>Butterscotch Cake</h5>
+                        <p>₹450</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow" data-aos="fade-up" data-delay="200">
+                    <img src="images/pineapple-cake.jpg" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5>Pineapple Pastry</h5>
+                        <p>₹80</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 🧁 Bakery Items -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Bakery Items</h2>
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="card shadow" data-aos="fade-up" data-delay="200">
+                    <img src="images/donut.jpg" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5>Donuts</h5>
+                        <p>₹60</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow" data-aos="fade-up" data-delay="200">
+                    <img src="images/muffin.jpg" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5>Muffins</h5>
+                        <p>₹70</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 🍕 Snacks -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Snacks & Fast Food</h2>
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="card shadow" data-aos="fade-up" data-delay="200">
+                    <img src="images/pizza.jpg" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5>Paneer Pizza</h5>
+                        <p>₹150</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow" data-aos="fade-up" data-delay="200">
+                    <img src="images/pasta.jpg" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5>White Sauce Pasta</h5>
+                        <p>₹180</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center p-3">
+    <p>© 2026 Modi's Bakers</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<script>
+AOS.init();
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+
+<script>
+VanillaTilt.init(document.querySelectorAll(".card"), {
+    max: 15,
+    speed: 400,
+    glare: true,
+    "max-glare": 0.3
+});
+</script>
+
+
+</body>
+</html>
