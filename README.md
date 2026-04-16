@@ -5,8 +5,6 @@ FINAL PROJECT SUBMISSION BY TUSHAR BAKSHI
 A modern, responsive website developed for **Modi’s Bakers**, a local bakery in Greater Noida.  
 This project was created as part of a Web Development assignment to showcase real-world business needs using front-end technologies.
 
----
-
 ## 📌 Project Overview
 
 Modi’s Bakers is a popular bakery offering:
@@ -20,8 +18,6 @@ This website provides an online presence to:
 - Allow custom cake inquiries
 - Share business information
 
----
-
 ## 🎯 Website Goals
 
 - Improve business visibility online  
@@ -29,16 +25,12 @@ This website provides an online presence to:
 - Allow customers to place custom cake requests  
 - Provide contact and location details  
 
----
-
 ## 👥 Target Audience
 
 - Students and local residents  
 - Families ordering cakes for events  
 - Office workers nearby  
 - Online users searching for bakeries  
-
----
 
 ## 🌐 Features
 
@@ -59,8 +51,6 @@ This website provides an online presence to:
   - Address and contact details
   - Embedded Google Map  
 
----
-
 ## 🎨 Design & UI
 
 - Modern and clean interface  
@@ -68,8 +58,6 @@ This website provides an online presence to:
 - Smooth animations using AOS  
 - Glassmorphism and soft UI elements  
 - Gradient backgrounds and hover effects  
-
----
 
 ## 🛠️ Technologies Used
 
@@ -79,8 +67,6 @@ This website provides an online presence to:
 - **Bootstrap 5**
 - **AOS (Animate on Scroll Library)**
 - **Vanilla Tilt (3D effect)**
-
----
 
 ## 📂 Project Structure
 modis-bakers/
@@ -97,30 +83,22 @@ modis-bakers/
 │
 └── images/
 
----
-
 ## 🚀 Live Demo
 
 👉 [Add your GitHub Pages link here]
 
----
-
 ## 💻 GitHub Repository
 
-👉 [Add your GitHub repo link here]
-
----
+👉 [GitHub repo link](https://github.com/tusharbakshifinance-netizen/modi-bakers-website)
 
 ## 📦 How to Run Locally
 
 1. Download or clone the repository
-`git clone https://github.com/your-username/modis-bakers.git`
+`[git clone https://github.com/your-username/modis-bakers.git](https://github.com/tusharbakshifinance-netizen/modi-bakers-website.git)`
 
 2. Open the project folder
 
 3. Run `index.html` in your browser
-
----
 
 ## 📈 Future Improvements
 
@@ -130,13 +108,9 @@ modis-bakers/
 - Product filtering & search  
 - Customer reviews section  
 
----
-
 ## 🙌 Acknowledgement
 
 This project was developed as part of a learning assignment to apply web development concepts in a real-world scenario.
-
----
 
 ## 📧 Contact
 
