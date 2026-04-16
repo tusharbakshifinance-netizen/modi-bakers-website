@@ -70,17 +70,29 @@ This website provides an online presence to:
 
 ## 📂 Project Structure
 modis-bakers/
+
 ├── index.html # Homepage
+
 ├── menu.html # Menu page
+
 ├── order.html # Custom cake order page
+
 ├── contact.html # Contact page
+
 │
+
 ├── css/
+
 │ └── style.css # Main stylesheet
+
 │
+
 ├── js/
+
 │ └── script.js # JavaScript functionality
+
 │
+
 └── images/ # Image assets (cakes, UI, etc.)
 
 ## 🚀 Live Demo
