@@ -70,29 +70,17 @@ This website provides an online presence to:
 
 ## 📂 Project Structure
 modis-bakers/
-
 ├── index.html # Homepage
-
 ├── menu.html # Menu page
-
 ├── order.html # Custom cake order page
-
 ├── contact.html # Contact page
-
 │
-
 ├── css/
-
 │ └── style.css # Main stylesheet
-
 │
-
 ├── js/
-
 │ └── script.js # JavaScript functionality
-
 │
-
 └── images/ # Image assets (cakes, UI, etc.)
 
 ## 🚀 Live Demo
@@ -106,7 +94,7 @@ modis-bakers/
 ## 📦 How to Run Locally
 
 1. Download or clone the repository
-`[git clone https://github.com/your-username/modis-bakers.git](https://github.com/tusharbakshifinance-netizen/modi-bakers-website.git)`
+`git clone https://github.com/your-username/modis-bakers.git`
 
 2. Open the project folder
 
