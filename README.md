@@ -70,18 +70,30 @@ This website provides an online presence to:
 
 ## 📂 Project Structure
 modis-bakers/
-│── index.html
-│── menu.html
-│── order.html
-│── contact.html
+
+├── index.html # Homepage
+
+├── menu.html # Menu page
+
+├── order.html # Custom cake order page
+
+├── contact.html # Contact page
+
 │
+
 ├── css/
-│ └── style.css
+
+│ └── style.css # Main stylesheet
+
 │
+
 ├── js/
-│ └── script.js
+
+│ └── script.js # JavaScript functionality
+
 │
-└── images/
+
+└── images/ # Image assets (cakes, UI, etc.)
 
 ## 🚀 Live Demo
 
@@ -115,5 +127,3 @@ This project was developed as part of a learning assignment to apply web develop
 ## 📧 Contact
 
 For any queries or suggestions, feel free to reach out.
-
----
